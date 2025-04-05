@@ -1,0 +1,100 @@
+2025-04-01 11:34:53 INFO  MainGUI:164 - Log4j configuration loaded successfully from: /C:/Users/nkz49/IdeaProjects/cursowork/target/classes/log4j.properties
+2025-04-01 11:34:53 INFO  MainGUI:74 - ========================================================
+2025-04-01 11:34:53 INFO  MainGUI:75 - Application Starting...
+2025-04-01 11:34:53 INFO  MainGUI:76 - ========================================================
+2025-04-01 11:34:53 INFO  MainGUI:86 - Initializing TrainDao (this will start H2 server if not running)...
+2025-04-01 11:34:53 INFO  TrainDao:131 - H2 TCP server not running. Attempting to start...
+2025-04-01 11:34:53 INFO  TrainDao:137 - H2 TCP server started successfully on port 9092. Web console (if enabled) available, DB file: train_db.mv.db
+2025-04-01 11:34:53 INFO  TrainDao:215 - Schema verification/creation complete. All required tables exist.
+2025-04-01 11:34:53 INFO  TrainDao:153 - Initial database setup verified/completed.
+2025-04-01 11:34:53 INFO  MainGUI:88 - TrainDao initialized successfully.
+2025-04-01 11:34:53 INFO  MainGUI:90 - Initializing UserDao...
+2025-04-01 11:34:53 INFO  MainGUI:92 - UserDao initialized successfully.
+2025-04-01 11:34:53 INFO  MainGUI:149 - MainGUI initialization complete. Application is running and LoginPanel is visible.
+2025-04-01 11:35:05 INFO  UserDao:190 - Login successful for user: 'admin'
+2025-04-01 11:35:06 INFO  LoginPanel:188 - Login successful for user: 'admin' with role: 'admin'
+2025-04-01 11:35:06 INFO  AdminPanel:30 - Initializing AdminPanel for user: admin
+2025-04-01 11:35:06 INFO  TrainController:72 - TrainController initialized. TrainDao injected. Initial train set to: null
+2025-04-01 11:35:06 INFO  Train:79 - Train object created with number: '12'
+2025-04-01 11:35:06 INFO  Train:79 - Train object created with number: 'KZO - AST'
+2025-04-01 11:35:06 INFO  TrainDao:445 - Retrieved 2 valid train records from database.
+2025-04-01 11:35:06 INFO  MainGUI:254 - Switched view to AdminPanel for user: 'admin'
+2025-04-01 11:35:06 INFO  AdminPanel:300 - Loading data for selected train: 12
+2025-04-01 11:35:06 INFO  Train:79 - Train object created with number: '12'
+2025-04-01 11:35:06 INFO  TrainController:93 - Current train in controller set to: '12'
+2025-04-01 11:35:06 INFO  WagonsTablePanel:258 - WagonsTablePanel updated with 1 rows.
+2025-04-01 11:35:13 INFO  AdminPanel:43 - Logout action triggered by user: admin
+2025-04-01 11:35:13 INFO  TrainController:93 - Current train in controller set to: null
+2025-04-01 11:35:13 INFO  MainGUI:319 - Switched view to LoginPanel.
+2025-04-01 11:35:19 INFO  UserDao:190 - Login successful for user: 'user'
+2025-04-01 11:35:19 INFO  LoginPanel:188 - Login successful for user: 'user' with role: 'user'
+2025-04-01 11:35:19 INFO  UserPanel:89 - Initializing UserPanel for user: 'user'
+2025-04-01 11:35:19 INFO  Train:79 - Train object created with number: '12'
+2025-04-01 11:35:19 INFO  Train:79 - Train object created with number: 'KZO - AST'
+2025-04-01 11:35:19 INFO  TrainDao:445 - Retrieved 2 valid train records from database.
+2025-04-01 11:35:19 INFO  MainGUI:286 - Switched view to UserPanel for user: 'user'
+2025-04-01 11:35:19 INFO  UserPanel:256 - UserPanel loading data for selected train: '12'
+2025-04-01 11:35:19 INFO  Train:79 - Train object created with number: '12'
+2025-04-01 11:35:19 INFO  WagonsTablePanel:258 - WagonsTablePanel updated with 1 rows.
+2025-04-01 11:35:23 INFO  UserPanel:124 - Logout action triggered by user: 'user'
+2025-04-01 11:35:23 INFO  MainGUI:319 - Switched view to LoginPanel.
+2025-04-01 11:35:27 INFO  MainGUI:124 - Window closing event detected by user.
+2025-04-01 11:35:28 INFO  MainGUI:203 - Initiating application shutdown sequence...
+2025-04-01 11:35:28 INFO  TrainDao:187 - Stopping H2 TCP server...
+2025-04-01 11:35:28 INFO  TrainDao:190 - H2 TCP server stopped successfully.
+2025-04-01 11:35:28 INFO  MainGUI:207 - H2 server stopped.
+2025-04-01 11:35:28 INFO  MainGUI:215 - Exiting application with status 0.
+2025-04-05 20:51:11 INFO  MainGUI:164 - Log4j configuration loaded successfully from: /C:/Users/nkz49/IdeaProjects/cursowork/target/classes/log4j.properties
+2025-04-05 20:51:11 INFO  MainGUI:74 - ========================================================
+2025-04-05 20:51:11 INFO  MainGUI:75 - Application Starting...
+2025-04-05 20:51:11 INFO  MainGUI:76 - ========================================================
+2025-04-05 20:51:11 INFO  MainGUI:86 - Initializing TrainDao (this will start H2 server if not running)...
+2025-04-05 20:51:11 INFO  TrainDao:131 - H2 TCP server not running. Attempting to start...
+2025-04-05 20:51:11 INFO  TrainDao:137 - H2 TCP server started successfully on port 9092. Web console (if enabled) available, DB file: train_db.mv.db
+2025-04-05 20:51:11 INFO  TrainDao:215 - Schema verification/creation complete. All required tables exist.
+2025-04-05 20:51:11 INFO  TrainDao:153 - Initial database setup verified/completed.
+2025-04-05 20:51:11 INFO  MainGUI:88 - TrainDao initialized successfully.
+2025-04-05 20:51:11 INFO  MainGUI:90 - Initializing UserDao...
+2025-04-05 20:51:11 INFO  MainGUI:92 - UserDao initialized successfully.
+2025-04-05 20:51:11 INFO  MainGUI:149 - MainGUI initialization complete. Application is running and LoginPanel is visible.
+2025-04-05 20:51:18 INFO  UserDao:190 - Login successful for user: 'admin'
+2025-04-05 20:51:18 INFO  LoginPanel:188 - Login successful for user: 'admin' with role: 'admin'
+2025-04-05 20:51:18 INFO  AdminPanel:30 - Initializing AdminPanel for user: admin
+2025-04-05 20:51:18 INFO  TrainController:72 - TrainController initialized. TrainDao injected. Initial train set to: null
+2025-04-05 20:51:18 INFO  Train:79 - Train object created with number: '12'
+2025-04-05 20:51:18 INFO  Train:79 - Train object created with number: 'KZO - AST'
+2025-04-05 20:51:18 INFO  TrainDao:445 - Retrieved 2 valid train records from database.
+2025-04-05 20:51:18 INFO  MainGUI:254 - Switched view to AdminPanel for user: 'admin'
+2025-04-05 20:51:18 INFO  AdminPanel:300 - Loading data for selected train: 12
+2025-04-05 20:51:18 INFO  Train:79 - Train object created with number: '12'
+2025-04-05 20:51:18 INFO  TrainController:93 - Current train in controller set to: '12'
+2025-04-05 20:51:18 INFO  WagonsTablePanel:258 - WagonsTablePanel updated with 1 rows.
+2025-04-05 20:51:34 INFO  TrainDao:500 - Train '12' saved successfully (transaction committed).
+2025-04-05 20:51:34 INFO  TrainController:123 - Current train '12' saved successfully via DAO.
+2025-04-05 20:51:34 INFO  TrainController:282 - New wagon [PassengerCar - Плацкарт] added to train '12' and saved.
+2025-04-05 20:51:35 INFO  TrainControlPanel:117 - New wagon added via dialog. Requesting AdminPanel UI update.
+2025-04-05 20:51:35 INFO  WagonsTablePanel:258 - WagonsTablePanel updated with 2 rows.
+2025-04-05 20:51:38 INFO  TrainDao:500 - Train '12' saved successfully (transaction committed).
+2025-04-05 20:51:39 INFO  TrainController:123 - Current train '12' saved successfully via DAO.
+2025-04-05 20:51:40 INFO  AdminPanel:108 - Train '12' saved by user action.
+2025-04-05 20:51:41 INFO  AdminPanel:43 - Logout action triggered by user: admin
+2025-04-05 20:51:41 INFO  TrainController:93 - Current train in controller set to: null
+2025-04-05 20:51:41 INFO  MainGUI:319 - Switched view to LoginPanel.
+2025-04-05 20:51:46 INFO  UserDao:190 - Login successful for user: 'user'
+2025-04-05 20:51:46 INFO  LoginPanel:188 - Login successful for user: 'user' with role: 'user'
+2025-04-05 20:51:46 INFO  UserPanel:89 - Initializing UserPanel for user: 'user'
+2025-04-05 20:51:46 INFO  Train:79 - Train object created with number: '12'
+2025-04-05 20:51:46 INFO  Train:79 - Train object created with number: 'KZO - AST'
+2025-04-05 20:51:46 INFO  TrainDao:445 - Retrieved 2 valid train records from database.
+2025-04-05 20:51:47 INFO  MainGUI:286 - Switched view to UserPanel for user: 'user'
+2025-04-05 20:51:47 INFO  UserPanel:256 - UserPanel loading data for selected train: '12'
+2025-04-05 20:51:47 INFO  Train:79 - Train object created with number: '12'
+2025-04-05 20:51:47 INFO  WagonsTablePanel:258 - WagonsTablePanel updated with 2 rows.
+2025-04-05 20:51:53 INFO  WagonsTablePanel:375 - Table filter applied/updated successfully.
+2025-04-05 20:51:54 INFO  WagonsTablePanel:375 - Table filter applied/updated successfully.
+2025-04-05 20:51:55 INFO  MainGUI:124 - Window closing event detected by user.
+2025-04-05 20:51:56 INFO  MainGUI:203 - Initiating application shutdown sequence...
+2025-04-05 20:51:56 INFO  TrainDao:187 - Stopping H2 TCP server...
+2025-04-05 20:51:56 INFO  TrainDao:190 - H2 TCP server stopped successfully.
+2025-04-05 20:51:56 INFO  MainGUI:207 - H2 server stopped.
+2025-04-05 20:51:56 INFO  MainGUI:215 - Exiting application with status 0.
